@@ -17,10 +17,10 @@
 **Задача 1 - График**
 <img width="721" height="478" alt="image" src="https://github.com/user-attachments/assets/92d13863-20ca-4217-8c9b-f32864bedb22" />
  
-**Задача 2 - Самый молодой француз с капиталом больше 10 млрд**
+**Задача 2 - Самый молодой миллиардер из Франции, капитал которого превышает 10 млрд**
 <img width="730" height="370" alt="image" src="https://github.com/user-attachments/assets/efa6c75f-a1ff-4054-9fac-8f0410d2538a" />
  
-**Задача 3 - Самый богатый в Energy из США**
+**Задача 3 - Имя и компания бизнесмена из США, имеющего самый большой капитал в сфере Energy**
 <img width="734" height="382" alt="image" src="https://github.com/user-attachments/assets/2e08d4c4-e7be-4e4d-b4f9-5da4b5a3e146" />
  
 **Вывод в консоль**
