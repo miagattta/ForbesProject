@@ -117,7 +117,7 @@ public class DatabaseManager {
         }
     }
 
-    // задача 2: самый молодой француз с капиталом > 10 млрд
+    // задача 2: самый молодой миллиардер из Франции, капитал которого > 10 млрд.
     public void sqlTask2() {
         String sql = "SELECT b.name, b.age, b.networth FROM billionaires b " +
                 "JOIN countries c ON b.country_id = c.id " +
@@ -137,7 +137,7 @@ public class DatabaseManager {
         }
     }
 
-    // задача 3: самый богатый в Energy из США
+    // задача 3: имя и компания бизнесмена из США, имеющего самый большой капитал в сфере Energy
     public void sqlTask3() {
         String sql = "SELECT b.name, b.source, b.networth FROM billionaires b " +
                 "JOIN countries c ON b.country_id = c.id " +
