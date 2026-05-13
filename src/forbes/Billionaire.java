@@ -2,23 +2,23 @@ package forbes;
 
 // класс для хранения данных одного миллиардера
 public class Billionaire {
-    private int rank;
-    private String name;
-    private double networth;
-    private int age;
-    private String country;
-    private String source;
-    private String industry;
+    private int rank;           // место в рейтинге
+    private String name;        // имя
+    private double networth;    // состояние в млрд $
+    private int age;            // возраст
+    private int countryId;      // ссылка на таблицу countries
+    private String source;      // источник дохода / компания
+    private int industryId;     // ссылка на таблицу industries
 
     // конструктор
-    public Billionaire(int rank, String name, double networth, int age, String country, String source, String industry) {
+    public Billionaire(int rank, String name, double networth, int age, int countryId, String source, int industryId) {
         this.rank = rank;
         this.name = name;
         this.networth = networth;
         this.age = age;
-        this.country = country;
+        this.countryId = countryId;
         this.source = source;
-        this.industry = industry;
+        this.industryId = industryId;
     }
 
     // геттеры
@@ -26,7 +26,7 @@ public class Billionaire {
     public String getName() { return name; }
     public double getNetworth() { return networth; }
     public int getAge() { return age; }
-    public String getCountry() { return country; }
+    public int getCountryId() { return countryId; }
     public String getSource() { return source; }
-    public String getIndustry() { return industry; }
+    public int getIndustryId() { return industryId; }
 }
